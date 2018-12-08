@@ -1,0 +1,380 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "landing",
+      "model": "subscriber"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "dbl6x6j706nppc760cski552c9qtl6lv",
+   "fields": {
+      "session_data": "OGU4NGFiOTkzOGYyYmQzMGRhNTg2ZjFlMDZmNWNhOTQ5YWZhOThlYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4OWE3MWRmNGNiMDc2NDdiODMzMGI5NzFiYzQ1NTQ2YzhlZTk4ZmJhIn0=",
+      "expire_date": "2018-12-20T13:57:10.498Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "md40ev4digld02q0ali772wmy2c7re64",
+   "fields": {
+      "session_data": "OGU4NGFiOTkzOGYyYmQzMGRhNTg2ZjFlMDZmNWNhOTQ5YWZhOThlYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4OWE3MWRmNGNiMDc2NDdiODMzMGI5NzFiYzQ1NTQ2YzhlZTk4ZmJhIn0=",
+      "expire_date": "2018-12-16T19:51:53.612Z"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 1,
+   "fields": {
+      "email": "aspirpd@gmail.com",
+      "name": "\u041f\u0430\u0432\u0435\u043b",
+      "subject": "\u0423\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u043c\u043e\u0449\u044c \u0432 \u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440\u0441\u043a\u043e\u043c \u0443\u0447\u0435\u0442\u0435",
+      "message": "\u0414\u043e\u0431\u0440\u044b\u0439 \u0432\u0435\u0447\u0435\u0440! \u0425\u043e\u0442\u0435\u043b \u0431\u044b \u0441 \u0412\u0430\u043c\u0438 \u0441\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f! \u041c\u043e\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d: 8-800-555-35-35",
+      "created": "2018-12-02T20:00:27.533Z",
+      "updated": "2018-12-02T20:00:27.533Z"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 2,
+   "fields": {
+      "email": "aspirpd@gmail.com",
+      "name": "\u041f\u0430\u0432\u0435\u043b",
+      "subject": "\u0417\u0430\u044f\u0432\u043a\u0430 \u043d\u0430 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0443\u0441\u043b\u0443\u0433",
+      "message": "\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c! \u041d\u0443\u0436\u0435\u043d \u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440\u0441\u043a\u0438\u0439 \u0443\u0447\u0435\u0442\r\n\u0421\u0432\u044f\u0436\u0438\u0442\u0435\u0441\u044c \u0441\u043e \u043c\u043d\u043e\u0439\r\n8888888888",
+      "created": "2018-12-05T13:21:24.195Z",
+      "updated": "2018-12-05T13:21:24.195Z"
+   }
+},
+{
+   "model": "landing.subscriber",
+   "pk": 3,
+   "fields": {
+      "email": "jjjj@gmail.com",
+      "name": "\u042e\u043b\u044f",
+      "subject": "\u0417\u0430\u044f\u0432\u043a\u0430",
+      "message": "\u041f\u0440\u0438\u0432\u0435\u0442!",
+      "created": "2018-12-06T13:56:49.350Z",
+      "updated": "2018-12-06T13:56:49.350Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add Subscriber",
+      "content_type": 7,
+      "codename": "add_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change Subscriber",
+      "content_type": 7,
+      "codename": "change_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete Subscriber",
+      "content_type": 7,
+      "codename": "delete_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view Subscriber",
+      "content_type": 7,
+      "codename": "view_subscriber"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$120000$VlMCJc72aT7V$vH7ep0luu14ycaQzJYLcEPM7f5LiQug8PgGcWULMSJ0=",
+      "last_login": "2018-12-06T13:57:10.495Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "aspirpd@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-12-02T19:51:32.264Z",
+      "groups": [],
+      "user_permissions": []
+   }
+}
+]
