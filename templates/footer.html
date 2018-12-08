@@ -1,0 +1,143 @@
+{% load static %}
+
+<section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact_contant sections">
+                        <div class="head_title text-center">
+                            <h2>БУДЬТЕ В КУРСЕ</h2>
+                            <div class="subtitle">
+                                Бухгалтерские услуги
+                            </div>
+                            <div class="separator"></div>
+                        </div><!-- End off Head_title -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="main_contact_info">
+                                    <div class="row">
+                                        <div class="contact_info_content padding-top-90 padding-bottom-60 p_l_r">
+{#                                            <div class="col-sm-12">#}
+{#                                                <div class="single_contact_info">#}
+{#                                                    <div class="single_info_text">#}
+{#                                                        <h3>НАШ АДРЕС</h3>#}
+{#                                                        <h4>РФ, г. Курск</h4>#}
+{#                                                    </div>#}
+{#                                                </div>#}
+{#                                            </div>#}
+                                            <div class="col-sm-12">
+                                                <div class="single_contact_info">
+                                                    <div class="single_info_text">
+                                                        <h3>ПОЗВОНИТЕ НАМ</h3>
+                                                        <h4>+7 920 7009572</h4>
+                                                        <h4>+7 903 8703847 (WhatsApp)</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="single_contact_info">
+                                                    <div class="single_info_text">
+                                                        <h3>НАША ПОЧТА</h3>
+                                                        <h4>natka009ms@mail.ru</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="single_contant_left padding-top-90 padding-bottom-90">
+                                    <form action="#" method="post" id="formid">{% csrf_token %}
+                                        <div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="{{ form.name.name }}" value="{{ request.POST.name }}" placeholder="Ваше Имя" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="{{ form.email.name }}" value="{{ request.POST.email }}" placeholder="Ваш Email" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="{{ form.subject.name }}" value="{{ request.POST.subject }}" placeholder="Тема обращения" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="{{ form.message.name }}" value="{{ request.POST.message }}" rows="7" placeholder="Ваше сообщение"></textarea>
+                                            </div>
+
+                                            <div class="">
+                                                <input type="submit" value="ОТПРАВИТЬ" class="btn btn-lg">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End of contact section -->
+
+    <section id="trial" class="trial text-center wow fadeIn"  data-wow-duration="2s" data-wow-dealy="1.5s">
+        <div class="main_trial_area">
+            <div class="video_overlay sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_trial">
+                            <div class="col-sm-12">
+                                <h2>Давайте сотрудничать! <span>Это легко и эффективно!</span></h2>
+                                <h4></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End of Trial section -->
+
+
+    <!--Footer section-->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main_footer">
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="flowus">
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href=""><i class="fa fa-youtube"></i></a>
+                                    <a href=""><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="copyright_text">
+                                    <p class=" wow fadeInRight" data-wow-duration="1s">Сделано с <i class="fa fa-heart"></i> веб-студией <a href="http://echorise.ru/">Echorisestudio</a>2018, Курск.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section><!-- End off footer Section-->
